@@ -1,0 +1,58 @@
+body {
+    padding: 10px;
+    background-color: white;
+}
+header {
+    font-size: larger;
+    color: rgb(255, 208, 0);
+}
+section > .title {
+font-size: 2rem;
+font-family: sans-serif;
+font-weight: 700;
+}
+section > .section {
+    
+}
+section > .section > div {
+display:inline-block;
+
+margin: 20px;
+align-items: center;
+
+
+}
+@media (min-width:550px) {
+    section > .section > div{
+        width: 500px;
+    }
+}
+section .section div img {
+    
+    
+
+    float: right;
+    
+}
+@media (max-width: 550px){
+    section .section div img {
+    
+    
+        display: block;
+       
+        width: 100%;
+        
+    }
+}
+p {
+    
+    text-align: center;
+    display: inline;
+    padding: 5;
+    
+}
+h3 {
+    text-align: center;
+    
+    
+}
